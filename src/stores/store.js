@@ -13,4 +13,4 @@ const defaultData = [
   },
 ]
 
-export const persistData = persistStore('data', defaultData)
+export const store = persistStore('data', defaultData)

@@ -1,11 +1,9 @@
 <script>
-  import {persistData} from './stores/store'
-
-  console.log($persistData)
+  import {store} from './stores/store'
 </script>
 
 <main>
-  {#each $persistData as data}
+  {#each $store as data}
   <section>
     {data.title}
   </section>
